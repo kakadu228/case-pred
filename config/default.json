@@ -1,0 +1,6 @@
+{
+    "port": "8080",
+    "secret": "casepred",
+    "mongoDB": "mongodb+srv://Prizrak2291:031016@cluster0.decer.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:8080"
+}

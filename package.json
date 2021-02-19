@@ -1,0 +1,35 @@
+{
+  "name": "case-pred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "case": "npm run start --prefix case",
+    "ser": "concurrently \"npm run server\" \"npm run case\""
+  },
+  "keywords": [
+    "case"
+  ],
+  "author": "Sapunov Karelin <sapunov.daniil@bk.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.16",
+    "mongoose-double": "0.0.1",
+    "nodemailer": "^6.4.17",
+    "recharts": "^2.0.4",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
